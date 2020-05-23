@@ -1,19 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>50833114 網管嗎</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/all.atom.xml" rel="self"></link><id>./</id><updated>2018-09-10T11:00:00+08:00</updated><entry><title>2018 Fall CP 課程</title><link href=".%5C2018-Fall-32-bit-Windows.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2018-09-10:.\2018-Fall-32-bit-Windows.html</id><summary type="html">&lt;p&gt;2018 Fall 一開始, 在一台已經 10 年的 32 位元的 Windows 7 操作系統中工作. 可攜的 Python 3.7.0 仍然可以配置, Leo Editor、PyQt5、flask、Markdown、pelican 與 bs4 的安裝, 也都沒有問題. 只有 Eric6 因為缺少必要模組與 Python 3.7.0 對應的 pyqt5-tools, 因此沒有安裝.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2018 Fall 一開始, 在一台已經 10 年的 32 位元的 Windows 7 操作系統中工作. 可攜的 Python 3.7.0 仍然可以配置, Leo Editor、PyQt5、flask、Markdown、pelican 與 bs4 的安裝, 也都沒有問題. 只有 Eric6 因為缺少必要模組與 Python 3.7.0 對應的 pyqt5-tools, 因此沒有安裝.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>50833114 網管嗎</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/all.atom.xml" rel="self"></link><id>./</id><updated>2020-05-22T15:47:00+08:00</updated><entry><title>使用 CMSiMDE</title><link href=".%5C2020052203.html" rel="alternate"></link><published>2020-05-22T15:47:00+08:00</published><updated>2020-05-22T15:47:00+08:00</updated><author><name>50833114</name></author><id>tag:None,2020-05-22:.\2020052203.html</id><summary type="html">&lt;p&gt;建立或下載可攜程室系統
+建立流程請參考 https://mde.tw/wcm2020 相關內容, 下載可攜系統請參考 https://github.com/mdecourse/wcm2020/tree/master/downloads/portable&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;建立或下載可攜程室系統
+建立流程請參考 https://mde.tw/wcm2020 相關內容, 下載可攜系統請參考 https://github.com/mdecourse/wcm2020/tree/master/downloads/portable&lt;/p&gt;
 
 
-&lt;h2&gt;電腦規格&lt;/h2&gt;
-&lt;p&gt;目前系上已經沒有 32 位元 Windows 操作系統的電腦, 所以先前只要有學生提到所使用的電腦是舊型 32 位元的 Windows XP 或 Windows 7, 都無法提供相應的可攜程式系統.&lt;/p&gt;
-&lt;p&gt;但是, 當您桌上就只一台早期 Sony 推出的 VGC-LM26T 電腦, 採用 Intel core 2 Duo T8100 2.1 GHz 裝載 32 位元 Windows 7, 記憶體只有 2GB 的老舊電腦.&lt;/p&gt;
-&lt;p&gt;夠用嗎?&lt;/p&gt;
-&lt;p&gt;當然可以, 使用的是特別製作的 &lt;a href="https://mde1a1.kmol.info/2017fall/raw/p37_32.7z?name=c272a694f98180f8d1272b43f7d7b4fdd8f7f550"&gt;32 位元可攜系統&lt;/a&gt;, 除了不支援 Eric6 之外, 其餘功能都與 64 位元的  &lt;a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing"&gt;p37&lt;/a&gt; 相同.&lt;/p&gt;
-&lt;h2&gt;工作流程&lt;/h2&gt;
-&lt;p&gt;從 2018 Fall 開始, 前半學期希望每位計算機程課程的學員, 都能透過 &lt;a href="http://mde.tw/cp2018/content/"&gt;2018 計算機程式教材&lt;/a&gt; 內容, 深入學習 Python 3 各種程式語法, 利用 &lt;a href="https://github.com/chiamingyen/cmsimfly"&gt;CMSimfly&lt;/a&gt;、&lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; 與 &lt;a href="https://revealjs.com/"&gt;Reveal.js&lt;/a&gt;, 熟悉如何在 &lt;a href="https://github.com/"&gt;Github&lt;/a&gt; 配置自己的網站、網誌與網際簡報系統.&lt;/p&gt;
-&lt;p&gt;使用時, 啟動隨身系統的 start.bat, 利用命令列指令, git clone https://github.com/mdecourse/2018fall, 然後將內容配置在各自的 &lt;a href="https://github.com/"&gt;Github&lt;/a&gt; 帳號下.&lt;/p&gt;
-&lt;h2&gt;程式專案&lt;/h2&gt;
-&lt;p&gt;早在 1999 年, 就已經開始進行所謂&lt;a href="https://webcache.googleusercontent.com/search?q=cache:sqYPNC8_mgoJ:https://www.most.gov.tw/sci/ch/detail%3Farticle_uid%3D4ee546e6-73fa-43a8-b1df-a5a0a1fe1824%26menu_id%3D0bac23e6-b3df-4fe0-b152-2e1050eb2f2c%26content_type%3DP%26view_mode%3DlistView+&amp;amp;cd=6&amp;amp;hl=zh-TW&amp;amp;ct=clnk&amp;amp;gl=tw"&gt;網際機械設計資源中心&lt;/a&gt;的構建, 想像中的資源中心是一套網際專家系統, 包含各式機械設計流程中所需的模組, 全部依附在一個相對穩定, 可以持續改進的核心架構下, 類似 &lt;a href="https://github.com/jhpyle/docassemble"&gt;docassemble&lt;/a&gt; 的一套系統.&lt;/p&gt;
-&lt;p&gt;將近二十年過去, &lt;a href="https://webcache.googleusercontent.com/search?q=cache:sqYPNC8_mgoJ:https://www.most.gov.tw/sci/ch/detail%3Farticle_uid%3D4ee546e6-73fa-43a8-b1df-a5a0a1fe1824%26menu_id%3D0bac23e6-b3df-4fe0-b152-2e1050eb2f2c%26content_type%3DP%26view_mode%3DlistView+&amp;amp;cd=6&amp;amp;hl=zh-TW&amp;amp;ct=clnk&amp;amp;gl=tw"&gt;網際機械設計資源中心&lt;/a&gt;始終仍只有片段系統, 其中包含 &lt;a href="https://github.com/chiamingyen/cmsimfly"&gt;CMSimfly&lt;/a&gt;、&lt;a href="https://github.com/chiamingyen/pygrouf"&gt;Pygrouf&lt;/a&gt; 與 &lt;a href="https://github.com/KmolYuan/Pyslvs-PyQt5"&gt;Pyslvs&lt;/a&gt; (&lt;a href="http://www.pyslvs.com/content/"&gt;Pyslvs 手冊&lt;/a&gt;)等相關專案.&lt;/p&gt;
-&lt;p&gt;就如同&lt;a href="http://blog.ez2learn.com/2009/06/27/how-to-write-useful-program/"&gt;如何寫出有用的程式?&lt;/a&gt; 一文中所述, "沒有興趣不要來念資工" 是一句非常貼切的警語, 當學生對於程式設計提不起興趣, 沒有將所學的各式語法、資料結構與演算法, 套用在自己非常有興趣的領域中, 用來解決各式問題的話, 日復一日, 我們還是寫不出任何有用的程式!&lt;/p&gt;
-&lt;h2&gt;早該起頭的重要工作&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.quora.com/Why-is-programming-so-important-in-the-modern-world"&gt;計算機程式的重要性&lt;/a&gt;其實已經無需爭辯, 人類未來的許多工作都是透過網路與數位運算達成, 既知趨勢如此, 每一位工程師就該越早起頭原本就該進行的重要工作, 透過計算機程式來解決問題, 構築一個值得長期投注心力的程式專案.&lt;/p&gt;</content><category term="Misc"></category><category term="2018FallCP"></category></entry></feed>
+&lt;p&gt;step 1
+登入 gm 帳號後, 下載 https://drive.google.com/open?id=1SvMKQFViJ0mskt20UhSqkjzckB3noSJH 至 downloads 目錄, 然後以 7zip 解開到 C:\wcmj2020 目錄下&lt;/p&gt;
+&lt;p&gt;step 2
+解開後的目錄為 c:\wcmj2020\wcm2020, 其中有 start.bat 與 stop.bat, 開啟可攜系統時, 以滑鼠點擊 start.bat, 關閉可攜系統時, 以滑鼠點擊 stop.bat&lt;/p&gt;
+&lt;p&gt;step 3
+登入以個人學號所建立的 github 帳號, 然後建立 wcmj2020 倉儲.&lt;/p&gt;
+&lt;p&gt;step 4
+將遠端的 wcmj2020 以 git clone 取下.&lt;/p&gt;
+&lt;p&gt;git clone https://github.com/學號/wcmj2020.git&lt;/p&gt;
+&lt;p&gt;step 5
+git submodule add https://github.com/mdecourse/cmsimde cmsimde&lt;/p&gt;
+&lt;p&gt;step 6
+進入 cmsimde 以 python wsgi.py 啟動動態系統&lt;/p&gt;
+&lt;p&gt;以瀏覽器 https://localhost:9443 可以利用 admin 為帳號登入管理&lt;/p&gt;
+&lt;p&gt;step 7
+動態系統維護後, 利用 generate_pages 轉為靜態.&lt;/p&gt;
+&lt;p&gt;step8
+git config --global user.email your_gmail
+git config --global user.name your_student_no
+git config --global http.proxy http://[2001:288:6004:17::53]:3128&lt;/p&gt;
+&lt;p&gt;git add .
+git commit -m "commit message"
+git push&lt;/p&gt;
+&lt;p&gt;輸入帳號密碼???&lt;/p&gt;</content><category term="Misc"></category><category term="wcmj2020"></category></entry><entry><title>簡單介紹電腦硬體</title><link href=".%5C2020052202.html" rel="alternate"></link><published>2020-05-22T15:36:00+08:00</published><updated>2020-05-22T15:36:00+08:00</updated><author><name>50833114</name></author><id>tag:None,2020-05-22:.\2020052202.html</id><summary type="html">&lt;p&gt;從計算機概論回顧作為起點
+電腦軟硬體相關術語&lt;/p&gt;
+&lt;p&gt;電腦軟硬體基本功能&lt;/p&gt;
+&lt;p&gt;個人電腦與網路設定&lt;/p&gt;
+&lt;p&gt;網際網路與全球資訊網&lt;/p&gt;
+&lt;p&gt;接下來就可以進入網際內容管理課程內容&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;從計算機概論回顧作為起點
+電腦軟硬體相關術語&lt;/p&gt;
+&lt;p&gt;電腦軟硬體基本功能&lt;/p&gt;
+&lt;p&gt;個人電腦與網路設定&lt;/p&gt;
+&lt;p&gt;網際網路與全球資訊網&lt;/p&gt;
+&lt;p&gt;接下來就可以進入網際內容管理課程內容&lt;/p&gt;
+
+
+&lt;p&gt;Types of computer
+https://en.wikiversity.org/wiki/Types_of_computers&lt;/p&gt;
+&lt;p&gt;1 Supercomputer (運算、記憶與儲存容量達到一定數量, 可以提供特定高速運算服務之全時開機超級電腦)
+2 Mainframe (由許多 Server 叢集整合而成, 相對封閉, 提供特定運算或資訊交換服務之全時開機電腦, 如機場、交通、警政、地政、戶政或金融用主機電腦群)
+3 Server Computer (一般較小型的開放或封閉伺服器, 提供 WWW, mail, sftp 或資料庫儲存用之全時開機電腦)
+4 Workstation Computer (提供專業機械、土木、建築、多媒體或其他需要即時 3D 虛實互動整合輔助的工程設計專用電腦工作站)
+5 Personal Computer or PC (個人電腦)
+6 Microcontroller (可隨身感測與互動裝置, 以及嵌入式應用之微控制運算器)
+7 Smartphone (個人隨身通訊手機裝置)&lt;/p&gt;</content><category term="Misc"></category><category term="wcmj2020"></category></entry><entry><title>虎尾科大重啟五專的背景</title><link href=".%5C2020052201.html" rel="alternate"></link><published>2020-05-22T15:00:00+08:00</published><updated>2020-05-22T15:00:00+08:00</updated><author><name>50833114</name></author><id>tag:None,2020-05-22:.\2020052201.html</id><summary type="html">&lt;p&gt;量身訂做產業專員 (所謂的產業學院)
+您希望成為產業人力輸送帶中的一員? 當輸送帶輸出端再無需求, 輸送帶上的「人」該何去何從?&lt;/p&gt;
+&lt;p&gt;二十年前許多台灣的產業為何外移?
+當時台灣的平均薪資無法支撐產業成品所創造的產值? 或者台灣當時的人力專業水準無法勝任這些產品持續改進的產品技術? 這些產業外移後, 員工下場?&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;量身訂做產業專員 (所謂的產業學院)
+您希望成為產業人力輸送帶中的一員? 當輸送帶輸出端再無需求, 輸送帶上的「人」該何去何從?&lt;/p&gt;
+&lt;p&gt;二十年前許多台灣的產業為何外移?
+當時台灣的平均薪資無法支撐產業成品所創造的產值? 或者台灣當時的人力專業水準無法勝任這些產品持續改進的產品技術? 這些產業外移後, 員工下場?&lt;/p&gt;
+
+
+&lt;p&gt;近幾年, 許多所謂的精密機械產業為何又移回台灣? 二十年後, 這些公司所形成的聚落, 預計會再有那些可能的遷移或變動? 所需要的是既定工作流程中的一般人力? 抑或隨著全球高科技產業不斷發展, 人工智慧應用普及, 會需要更多高階具創新能力的研發人員?&lt;/p&gt;
+&lt;p&gt;三十年前的國道收費員
+下場&lt;/p&gt;
+&lt;p&gt;希望當時沒有學校配合政府量身訂做國道收費產業專員!!!&lt;/p&gt;
+&lt;p&gt;疫情當前, 能夠遠端在家上班的是那些族群?
+透過網路提供腦力產值的員工? 還是一定必須親臨現場, 提供勞動力產值的員工???&lt;/p&gt;
+&lt;p&gt;有沒有可能二十年後, 許多必須親臨現場, 提供勞力服務的族群, 會有一定數量, 來自不受疫病感染的機電資光生整合系統 (智慧機器人)?&lt;/p&gt;
+&lt;p&gt;放眼未來, 四面環海, 沒有充足金屬、石油礦產, 也沒有穩定水源、風力、太陽能源的台灣, 此後五十年, 應該需要大力推動什麼產業?訂做何種專業人力?&lt;/p&gt;</content><category term="Misc"></category><category term="wcmj2020"></category></entry></feed>
